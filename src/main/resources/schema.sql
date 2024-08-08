@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS employees (
+    id LONG PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    jobPosition VARCHAR(50) NOT NULL,
+    admissionDate DATE NOT NULL
+
+);
